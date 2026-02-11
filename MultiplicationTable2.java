@@ -7,7 +7,7 @@ class MultiplicationTable2
 
         int num = 7;
 		
-        for(i=1;i<=70;i++) 
+        for( int i=1;i<=10;i++) 
 		{
             System.out.println(num + " x " + i + " = " + (num * i));
         }
