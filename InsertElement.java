@@ -21,7 +21,7 @@ class InsertElement
 		}
 		for (int i = 0; i < br.length; i++)
 		{
-			System.out.print(br[i] + "  ");
+			System.out.print(br[i] + " ");
 		}
 		
     }

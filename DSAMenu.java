@@ -124,6 +124,7 @@ class DSAMenu
 			}
 		}	
 		return -1;
+	
 	}
 	
 	int binarySearch(int ar[],int target)
