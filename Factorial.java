@@ -1,16 +1,21 @@
-class Factorial
+package factorial;
+
+import java.util.Scanner;
+
+public class Factorial
 {
     public static void main(String[] args)
-	{
+    {
+        Scanner sc = new Scanner(System.in);
 
-        int a = 3;
-        int fact = 1;
+        System.out.print("Enter number: ");
+        int num = sc.nextInt();
 
-        for (int i = 1; i <= a; i++)
-		{
-            fact = fact * i;
-        }
+        FactorialTemplate ft = new FactorialTemplate();
 
-        System.out.println("Fact = " + fact);
+        int result = ft.factorial(num);
+
+        System.out.println("Factorial = " + result);
     }
 }
+    

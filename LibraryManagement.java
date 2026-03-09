@@ -93,6 +93,5 @@ class LibraryManagement
                     System.out.println("Invalid choice.");
             }
         }
-		sc.close();
-    }
+	}
 }
