@@ -1,16 +1,20 @@
-class Car {
-    public static void main(String[] args) {
 
-        String carName = "Tesla Model S";
-        String fuelType = "Electric";
-        int mileage = 396;
-        double price = 85000.00;
-        String brand = "Tesla";
+package vehiclemanagement;
 
-        System.out.println(carName);
-        System.out.println(fuelType);
-        System.out.println(mileage);
-        System.out.println(price);
-        System.out.println(brand);
+public class Car extends Vehicle
+        
+{
+    int Seat;
+
+    public Car(String Brand, int Year, int Seat) 
+    {
+        super(Brand, Year);
+        this.Seat=Seat;
     }
+   @Override
+    void display()
+    {
+        super.display();
+        System.out.println("Seat : "+Seat);
+    }          
 }
